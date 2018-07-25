@@ -1,0 +1,14 @@
+<div clas="row my-3 mx-1" *ngFor="let p of postData">
+  <h1 class="mt-4">{{p.title}}</h1>  
+  <p>
+    <img class="img-fluid thumb" src="../assets/image/blog-img/{{p.id}}.png" />
+    by {{p.name}}  
+  </p>
+  <hr>
+  <p>Posted on {{p.date}} <span class="cat"><b>{{p.category}}</b></span></p>
+  <img class="card-img-top" src="{{p.image}}" alt="Card image cap">
+  <br>
+  <p>{{p.description}}</p>    
+</div>
+<br>
+

@@ -1,0 +1,12 @@
+
+  <div class="row my-3 mx-1 py-2 home" *ngFor="let p of postList">
+    <div class="col-lg-4 p-0"> <!--Image Div-->
+      <img src="{{p.image}}" class="thumbnail img-fluid">
+    </div>
+    <div class="col-lg-8" > 
+        <a routerLink="/post/{{p.id}}"><h3 class="mt-1">{{p.title}}</h3></a>
+      <p>{{p.short}}</p>
+      <a routerLink="/post/{{p.id}}" class="btn float-left">Read More &rarr;</a>  
+    </div>
+  </div>
+

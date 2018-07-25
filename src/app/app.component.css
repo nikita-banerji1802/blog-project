@@ -1,0 +1,72 @@
+.icons{
+    font-size:44px;
+    color:#581845;
+}
+.icons:hover{
+    opacity:0.5;
+}
+.header{
+    background: linear-gradient(to bottom, #900C3F  ,#FF5733);
+    box-shadow: 5px 10px 8px #888888;
+}
+.heading{
+    font-family:Impact, Charcoal, sans-serif;
+    font-size:80px;
+    color:white;
+}
+ul li a{
+    text-decoration:none;
+    color: white ;
+    font-size:22px;
+    font-family:Impact, Charcoal, sans-serif;
+    padding-left:20px;
+    padding-right:20px;
+}
+ul li a:hover{
+    background: #FF5733 ;
+}
+
+div.category{
+    background:#581845;
+}
+div.category > h3{
+    font-family:Impact, Charcoal, sans-serif;
+    text-align:center;
+    color:white;
+}
+a.category:hover{
+    background:#dbdbdb;
+}
+a.trending:hover{
+    background:#dbdbdb;
+}
+div.trending{
+    background:#581845;
+}
+div.trending > h3{
+    font-family:Impact, Charcoal, sans-serif;
+    text-align:center;
+    color:white;
+}
+img.trending{
+    width:30%;
+    height:30%;
+}
+a{
+    font-family:"Courier New", Courier, monospace;
+    font-size:20px;
+    text-align:center;
+    cursor:pointer;
+    color:black;
+}
+@media (max-width:600px){
+    .heading{
+        font-size:46px; 
+    }
+    a{
+        font-family:"Courier New", Courier, monospace;
+        font-size:17px;
+        text-align:center;
+        color:black;
+    }
+}

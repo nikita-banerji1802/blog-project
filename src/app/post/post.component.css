@@ -1,0 +1,27 @@
+h1{
+    font-family:Impact, Charcoal, sans-serif;
+}
+p{
+    font-family:"Courier New", Courier, monospace;
+    font-size:21px;  
+    text-align:justify;
+}
+img{
+    margin-bottom:2%;
+}
+img.thumb{
+    width:40px;height:43px;
+    margin-bottom:0;
+}
+.cat{
+    background: #FF5733 ;
+    padding:0.5%;
+}
+@media (max-width:600px){
+    p{
+        font-size:19px; 
+    }
+    h1{
+        text-align:center;
+    }
+}

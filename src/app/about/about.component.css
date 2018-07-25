@@ -1,0 +1,19 @@
+.box{
+    border-radius:5px;
+    box-shadow: 10px 10px 8px #888888;
+    border:1px solid #888888;
+}
+p{
+    font-family:"Courier New", Courier, monospace;
+    font-size:21px;  
+    text-align:justify;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:Impact, Charcoal, sans-serif;
+}
+@media (max-width:600px){
+    p{
+        font-size:17px;
+    }
+}
